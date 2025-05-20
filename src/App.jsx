@@ -23,6 +23,7 @@ const App = () => {
     } else {
       setGameState("Lost");
     }
+    console.log(GameState)
   }
 
   function FinalMsg() {
